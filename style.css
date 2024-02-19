@@ -1,0 +1,422 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #F7F7FA !important;
+
+}
+
+@font-face {
+    font-family: 'proxima';
+    src: url(Assets/Fonts/Proxima\ Nova\ Font.otf);
+}
+
+
+
+
+/* Carousel_Start */
+.top img {
+    width: 100%;
+
+}
+
+.parent_section {
+    max-width: 1500px;
+    margin: 0px auto;
+    width: 100%;
+    background-color: #F7F7FA !important;
+}
+
+.set-carousel {
+    width: 100%;
+}
+
+.image-right img {
+    flex-wrap: nowrap;
+    width: 50%;
+
+}
+
+.d-flex {
+    padding-left: 0px 10px;
+    width: 100%;
+}
+
+@media only screen and (max-width:1200px) {
+
+    /* .top img {
+        width: ;
+    } */
+    .image-right img {
+        width: 190px;
+
+    }
+
+    .parent_section {
+        max-width: 1150px;
+        margin: 0px auto;
+        width: 100%;
+
+    }
+
+    .set-carousel {
+        width: 1010px;
+    }
+}
+
+@media only screen and (max-width:1400px) {
+
+
+    .image-right img {
+        width: 194px;
+        height: 188px;
+
+    }
+
+    .parent_section {
+        max-width: 1400px;
+        margin: 0px auto;
+        width: 100%;
+
+    }
+
+    .set-carousel {
+        width: 898px;
+    }
+}
+
+@media only screen and (max-width:1303px) {
+    .image-right img {
+        display: none;
+    }
+
+    .set-carousel {
+        width: 100%;
+    }
+
+    .parent_section {
+        padding: 0px 20px;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .top img {
+        height: 30px;
+    }
+
+    .parent_section {
+        max-width: 1150px;
+        margin: 0px auto;
+        width: 100%;
+        padding: 0px;
+
+    }
+
+}
+
+/* Carousel_ End  */
+.parent-of-cr {
+    background-color: #FEEAEA;
+    padding: 20px 5px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 10px;
+    width: 99%;
+}
+
+.boxes img {
+    width: 110px;
+    padding-left: 10px;
+
+}
+
+
+@media only screen and (max-width:1453px) {
+
+    .boxes {
+        display: flex;
+        justify-content: space-around;
+        column-gap: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .boxes img {
+        width: 90px;
+        padding-left: 10px;
+
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .boxes {
+        display: flex;
+        justify-content: center;
+        column-gap: px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .boxes img {
+        width: 60px;
+        padding-bottom: 10px;
+
+    }
+}
+
+/* Left-Box-Start */
+
+
+.parent_of_card01 {
+    background-color: #fff !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin: 20px 10px;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.parent_of_card01 h2 {
+    font-family: 'proxima';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left !important;
+    margin-left: 26px;
+}
+
+.parent_of_card01 img {
+    width: 200px;
+    height: 220px;
+    text-align: center;
+}
+
+.parent_of_card01 span {
+    padding-left: 15px;
+}
+
+.second-line-card {
+    padding-top: 16px;
+}
+
+/* Left-Box- End  */
+
+/* Meddile Box Start */
+
+
+.parent_of_card02 {
+    background-color: #fff !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 20px 10px;
+    width: 500px;
+    display: block;
+    text-align: center;
+
+}
+
+.parent_of_card02 h2 {
+    font-family: 'proxima';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left !important;
+    margin-left: 26px;
+}
+
+.smr-parnt {
+    width: 220px;
+    background-color: #F5F4F4;
+    height: 30px;
+    display: flex;
+    justify-content: end;
+    border-radius: 0px 8px 0px 0px;
+}
+
+.smart-of-dl p {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #e33c4b;
+    color: #fff;
+    width: 150px;
+    padding: 3px;
+    margin: 0px;
+    border-radius: 0px 8px 0px 8px;
+}
+
+.mt-10 {
+    margin-top: 15px;
+    display: block;
+}
+
+.grey {
+    width: 220px;
+    height: 113px;
+
+    background-color: #F5F4F4;
+
+}
+
+.grey>img {
+    width: 80px;
+    /* margin-top: 30px; */
+}
+
+.text-of-dl {
+    width: 220px;
+    height: 70px;
+    border-radius: 0px 0px 8px 8px;
+    background-color: #ECECEC;
+
+
+}
+
+.text-of-dl>p {
+    font-size: 14px;
+    margin: 0px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.text-of-dl>h4 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.cart-dl {
+    width: 40px;
+    background-color: #fff;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: -38px;
+    margin-left: 160px;
+
+}
+
+.cart-dl>img {
+    width: 25px;
+    margin-top: 8px;
+}
+
+.deal {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 8px;
+}
+
+.deal h3 {
+    background-color: hsl(0, 0%, 29%);
+    font-family: 'proxima';
+    font-weight: bold;
+    color: #fff;
+    width: 150px;
+    font-size: 18px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.pink {
+    background-color: #FCD5D5 !important;
+}
+
+/* Meddile Box  ENd  */
+
+/* Right  Box  Start  */
+.parent_of_card03 {
+    background-color: #fff !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 20px 10px;
+    width: 473px;
+    display: block;
+    text-align: center;
+
+}
+
+.parent_of_card03 h2 {
+    font-family: 'proxima';
+    font-weight: bold;
+    font-size: 25px;
+    text-align: left !important;
+    margin-left: 26px;
+}
+
+.parent_of_card03 img {
+    width: 445px;
+    text-align: center;
+}
+
+.parent_of_card03 span {
+    padding-left: 15px;
+}
+
+/* Right  Box   End  */
+
+/* <<<<<<Mega deals of Boxes  ENd>>>>> */
+
+
+/* Product section Satrt */
+.Product-Section {
+    background-color: #f1f4fd;
+    padding: 25px 30px;
+}
+
+.he1>h3 {
+    font-size: 26px;
+    color: #404553;
+    margin: 10px 12px;
+    font-weight: bold;
+}
+
+.pro_01 {
+    width: 250px;
+    height: 450px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    background-color: #f7f7fa;
+    border-radius: 15px;
+}
+
+.pro_01>img {
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.cart-pro {
+    width: 40px;
+    background-color: #F8F8F9;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    position: relative;
+    bottom: 160px;
+    left: 190px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;}
+
+.po {
+    position: relative;
+
+}
+
+.ic img {
+    width: 25px;
+    margin-top: 8px;
+
+}
+
+/* Product section  End   */
